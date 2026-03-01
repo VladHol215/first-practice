@@ -1,7 +1,6 @@
 # Розділ 5. UML-нотація
 
-```mermaid
-useСaseDiagram
+useCaseDiagram
     actor "Клієнт" as C
     actor "Процесинговий центр" as P
     actor "Підтримка" as S
@@ -21,4 +20,4 @@ useСaseDiagram
     C --> UC5
     UC2 --> P
     UC5 --> S
-    ```
+    
